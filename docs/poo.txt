@@ -1,0 +1,13 @@
+(pane,{((pane,1),1)})
+(uova,{((uova,1),1)})
+(vino,{((vino,0),3),((vino,1),1)})
+(dolce,{((dolce,0),1),((dolce,1),1),((dolce,2),1)})
+(latte,{((latte,0),1),((latte,1),1),((latte,2),1)})
+(pesce,{((pesce,0),2)})
+(insalata,{((insalata,0),1),((insalata,1),1),((insalata,2),1)})
+(formaggio,{((formaggio,0),1)})
+
+$1: {((insalata,0),1),((insalata,1),1),((insalata,2),1)}
+	$0: ((insalata,0),1)
+		$0: (insalata,0)
+			$1: 0

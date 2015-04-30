@@ -1,0 +1,10 @@
+2015-11-21,uova,dolce,formaggio,pesce,pane,latte
+2015-4-2,vino,uova
+2015-2-11,dolce,formaggio,pesce,pane,latte
+2015-1-26,uova,dolce,pane,latte
+2015-1-23,pane
+2015-9-30,formaggio,pesce,insalata,pane
+2015-8-22,vino,latte
+2015-9-12,vino,formaggio,pesce,insalata,pane,latte
+2015-7-15,uova,dolce,formaggio,pesce,insalata,pane
+2015-7-5,uova,dolce,pesce

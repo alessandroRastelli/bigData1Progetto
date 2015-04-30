@@ -1,0 +1,28 @@
+
+INPUT
+01-02-2013,pane,pesce
+01-02-2013,pane,uva
+
+
+MAPPER
+EMIT( pane -> (pane,1) )
+EMIT( pane -> (pesce,1) )
+EMIT( pesce -> (pane,1) )
+EMIT( pesce -> (pesce,1) )
+EMIT( pane -> (pane,1) )
+EMIT( pane -> (uva,1) )
+EMIT( uva -> (pane,1) )
+EMIT( uva -> (uva,1) )
+
+REDUCER
+pane -> [(pane,1),(pesce,1),(pane,1),(uva,1)]
+pesce -> [(pane,1),(pesce,1)(pane,1),(uva,1)]
+uva -> [(pane,1),(uva,1)]
+
+
+JAVAMAP
+pane -> [(pane->2),(pesce->1),(uva->1)]
+pesce -> [(pane->2),(pesce->1),(uva->1)]
+uva -> [(pane->1),(uva->1)]
+
+

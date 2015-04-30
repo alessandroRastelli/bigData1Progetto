@@ -1,0 +1,19 @@
+Alcune precisazioni sul primo progetto.
+
+1) Alcuni studenti hanno osservato che il terzo esercizio obbligatorio 
+(coppie di prodotti che vengono più frequentemente venduti insieme) e il primo facoltativo 
+(quante transazioni nelle quali compare p1, compare anche p2) sembrano molto simili. 
+Non è esattamente così: se chiamiamo S1 ed S2 le due misure suddette e, per esempio, abbiamo 4 transazioni:
+t1,a,b
+t2,a,b,c
+t3,a,d
+t4,e,f
+- per la coppia di prodotti (a,b) abbiamo S1=2 (il 50% delle transazioni contengono sia a che b) 
+e S2=0,66 (perché su 3 transazioni in cui compare a, solo in 2 compare anche b, ovvero nel 66% dei casi)
+- per la coppia (b,a) invece abbiamo sempre S1=2 ma S2=1 (100%).
+
+2) anche per il primo esercizio facoltativo sarebbe auspicabile generare 
+le prime 10 coppie con valore più altro di S2
+
+3) per l’ultimo esercizio facoltativo sarebbe auspicabile implementare TUTTI i job 
+(sia quelli obbligatori che quelli facoltativi) sia in Pig che in Hive
